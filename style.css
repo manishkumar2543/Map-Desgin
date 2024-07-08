@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    
+}
+nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222121;
+    
+    border-bottom: 1px solid gray;
+}
+.img-section{
+    height: 50px;
+    width: 50px;
+}
+.img-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.right{
+ margin-right: 20%;
+}
+.right ul{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    align-items: center;
+   
+    
+   
+}
+.right ul li{
+    padding: 5px 10px;
+    background-color: rgb(220, 143, 20);
+    color: white;
+    border-radius: 20px;
+    transition: 3s ease-in-out;
+
+}
+.right ul li:hover{
+    background-color: #895907;
+    color: rgb(139, 133, 133);
+}
+.left{
+    margin-left: 2vw;
+}
+.company-logo{
+    display: flex;
+    gap: 20px;
+}
+.cmpny-name h2{
+    color: green;
+
+}
+.cmpny-name p{
+    color: rgb(230, 169, 26);
+    text-align: center;
+}
+
+.hero-section{
+    height: 10vw;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content h3{
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+}
+.content p{
+    font-size: 12px;
+    text-align:center;
+}
+.search-area{
+    margin-top: 10px;
+    display: flex;
+  
+  
+
+}
+.search-area input{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+}
+.arrow-right-icon{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    transition: 2s ease-in-out;
+}
+.arrow-right-icon i{
+    color: rgb(225, 172, 15);
+}
+.arrow-right-icon:hover{
+    background-color: gray;
+    color: rgb(35, 34, 34);
+}
+.facilites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.find-location{
+    width: 30vw;
+    height: 460px;
+    padding: 10px;
+   overflow-y: scroll;
+  
+    background-color:antiquewhite;
+}
+.box-center{
+    display: flex;
+    justify-content: space-between;
+  background-color: white;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px 0;
+}
+
+.foods-area-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: rgb(255, 204, 0);
+    text-decoration: underline;
+}
+.area {
+ margin-left: 10px;
+   width: 100%;
+
+}
+.area-image{
+    height: 8vw;
+    width: 8vw;
+   
+}
+ 
+.area-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+    
+}
+::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+    height: 12px; /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #afa4a4; /* Color of the track */
+    border-radius: 10px; /* Rounded corners for the track */
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the thumb */
+    
+    border-radius: 10px; /* Rounded corners for the thumb */
+    border: 3px solid #f1f1f1; /* Padding around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Darker color when hovered */
+}
+
+.area-dff-container{
+  
+  display: flex;
+     
+    
+ }
+ 
+.map-location{
+    height: 460px;
+    width: 70%;
+    background-image: url(bhoapl-map.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+
+
+
+
+
